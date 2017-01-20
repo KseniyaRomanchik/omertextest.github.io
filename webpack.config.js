@@ -29,10 +29,6 @@ module.exports = {
 				loader: "babel",
 			},
 			{
-				test: /\.css$/,
-				loader: "style!css?modules"
-			},
-			{
 				enforce: "pre", 
 				test: /\.js$/,  
 				loader: "eslint-loader", 

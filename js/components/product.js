@@ -75,7 +75,7 @@ class Product extends Component{
 				<CardMedia>
 					<img src={`../../public/img/${props.img}`} />
 				</CardMedia>
-				<CardTitle title={ props.name } subtitle={`${props.price} $`} />
+				<CardTitle title={ props.name } subtitle={`${props.price.toFixed(2)} $`} />
 				<CardText style={ this.state.expanded ? openExpandText : closeExpandText }>
 						{ props.description }
 						<div>

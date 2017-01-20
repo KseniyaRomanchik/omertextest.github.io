@@ -1,7 +1,6 @@
 import React, {Component} from "react"
 import Product from "./../components/product"
 import goods from "./../goods.json"
-import styles from "./../../styles/commonStyles.css"
 
 class Goods extends Component{
 
@@ -33,7 +32,7 @@ class Goods extends Component{
 		return(
 			<div>
 				<input type="search" placeholder="Search" onInput={this.searchEvent.bind(this)}/>
-				<ul className={styles.goods}>
+				<ul className="goods">
 					{links}
 				</ul>
 			</div>

@@ -1,0 +1,45 @@
+h1,h2,h3,h4,h5,h6{
+	color: #87a6c0;
+	font-weight: normal;
+}
+
+body, html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	height: 100%;
+	color: #1b1b22;
+	font-weight: lighter;
+	background: #ddd;
+	padding: 32px;
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+}
+
+#container{
+	min-height: 100%;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+.goods{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.goods li{
+	margin: 16px;
+	max-height: 400px;
+	transition: 0.3s ease-in-out;
+
+}
